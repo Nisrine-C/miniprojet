@@ -33,7 +33,7 @@ class PatientController extends Controller
     public function show(Patient $patient)
     {
         return response()->json([
-            'patient' => $patient
+            'thing' => $patient
         ]);
     }
 

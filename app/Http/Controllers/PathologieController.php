@@ -23,7 +23,7 @@ class PathologieController extends Controller
         Pathologie::create($request->post());
 
         return response()->json([
-            'message' => 'Pathologie created successfully'
+            'element' => 'Pathologie created successfully'
         ]);
     }
 

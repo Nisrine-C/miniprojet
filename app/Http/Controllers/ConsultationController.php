@@ -34,7 +34,7 @@ class ConsultationController extends Controller
     public function show(Consultation $consultation)
     {
         return response()->json([
-            'consultation' => $consultation
+            'element' => $consultation
         ]);
     }
 

@@ -34,7 +34,7 @@ class OrdonnanceController extends Controller
     public function show(Ordonnance $ordonnance)
     {
         return response()->json([
-            'ordonnance' => $ordonnance
+            'element' => $ordonnance
         ]);
     }
 

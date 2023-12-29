@@ -32,7 +32,7 @@ class MedecinController extends Controller
     public function show(Medecin $medecin)
     {
         return response()->json([
-            'medecin' => $medecin
+            'element' => $medecin
         ]);
     }
 
